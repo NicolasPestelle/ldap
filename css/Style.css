@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+.container{
+	background-color: coral;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+}
+
+.en-tete{
+	min-height: 150px;
+	background-image: url('https://loremflickr.com/810/150');
+}
+
+.menu{
+	float: left;
+	min-width: 200px;
+
+	min-height: 200px;
+
+	margin-right: 10px;
+
+	background: lightblue;
+}
+
+.body{
+	width: 609px;
+
+	margin-left: 201px;
+
+	background: burlywood;
+	min-height: 200px;
+}
+
+
+body{
+	background-color: red;
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
